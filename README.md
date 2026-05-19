@@ -1,3 +1,4 @@
+#Atividade 02
 Utilizando a página HTML desenvolvida na atividade anterior (pode aumentar o código HTML), adicione estilização com CSS. Identifique o html com index.html e o css com style.css ou um nome que não gere dúvidas. Irei corrigir apenas um html/css, mas isso não impede de vocês fazer outros, só preciso que todos os requisitos estejam no principal.
 
 1. Aplicação do CSS (10)

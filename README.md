@@ -1,4 +1,4 @@
-# Atividade-1
+# Atividade 01
 Desenvolva uma página HTML com tema livre (ex: hobby, tecnologia, viagem, jogos, etc.). A página deve apresentar uma estrutura organizada, semântica e legível.
 
  1. Estrutura básica

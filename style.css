@@ -1,0 +1,54 @@
+body {
+    background-color: #8EB9FC;
+    margin: 0;
+    font-size: large;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    background-color: #404D63;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #162133;
+}
+
+a {
+    color: #7E8896;
+}
+
+header {
+    background-color: #99ACC9;
+    
+}
+
+ul {
+    list-style-type: square;
+}
+
+#tituloPrincipal {
+    color: white;
+    background-color: #162133;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#links {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bordas {
+    border: 2px solid #162133;
+    text-align: center;
+    padding: 5px;;
+}

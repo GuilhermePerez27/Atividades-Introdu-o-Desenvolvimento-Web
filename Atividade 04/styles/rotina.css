@@ -1,0 +1,16 @@
+tr, td, th, table {
+    border: 1px solid #5B6485;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 20px;
+}
+
+.almoco {
+    background-color: #5A6DB7;
+    color: #ffffff;
+}
+
+.principal {
+    background-color: #242733;
+    color: #fffdfd;
+}

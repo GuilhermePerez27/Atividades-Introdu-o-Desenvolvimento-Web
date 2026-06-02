@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
 
     <style>
         body {
         background-color: #000080;
         color: #FFFFFF;
-        font-family: monospace;
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
         margin: 0;
+
         }
 
         header, footer {
@@ -43,7 +49,6 @@
         }
 
         input {
-        display: block;
         margin: 10px auto;
         padding: 5px;
         font-size: 16px;
@@ -83,6 +88,38 @@
             color: white;
         }
 
+        fieldset {
+            border: 2px solid #FFFFFF;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 20px auto;
+            width: 50%;
+            align-items: center;
+            background-color: #0F0F4D;
+        }
+
+        .selecao {
+            margin-left: 120px;
+        }
+
+        .selecao label {
+            display: inline;
+            align-items: center;
+            
+        }
+
+        .selecao input {
+            display: inline;
+            width: auto;
+        }
+
+
+        @media (max-width: 600px) {
+            fieldset {
+                width: 80%;
+            }
+        }
+
 
 
     </style>
@@ -90,11 +127,11 @@
 <body>
     
     <header>
-        <h1 style="background-color: #000080;">Pesquisa</h1>
+        <h1>Pesquisa</h1>
 
     </header>
 
-    <main>
+    <main >
         <form>
         <fieldset>
             <legend>Formulário de Dados</legend>
@@ -111,24 +148,39 @@
             </fieldset>
             <fieldset>
                 <legend>Sexo</legend>
-                <input type="radio" id="masculino" name="genero" value="masculino">
-                <label for="masculino">Masculino</label><br>
-                <input type="radio" id="feminino" name="genero" value="feminino">
-                <label for="feminino">Feminino</label><br>
+                <div class="selecao"> 
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                </div>
+                <div class="selecao"> 
+                    <input type="radio" id="feminino" name="genero" value="feminino">
+                    <label for="feminino">Feminino</label><br>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Interesses</legend>
+                
                 <label for="interesses">Selecione seus interesses:</label><br>
-                <input type="checkbox" id="HTML" name="interesses" value="HTML">
-                <label for="HTML">HTML</label><br>  
-                <input type="checkbox" id="CSS" name="interesses" value="CSS">
-                <label for="CSS">CSS</label><br>
-                <input type="checkbox" id="JavaScript" name="interesses" value="JavaScript">
-                <label for="JavaScript">JavaScript</label><br>
-                <input type="checkbox" id="Python" name="interesses" value="Python">
-                <label for="Python">Python</label><br>
-                <input type="checkbox" id="Java" name="interesses" value="Java">
-                <label for="Java">Java</label><br>
+                <div class="selecao"> 
+                    <input type="checkbox" id="HTML" name="interesses" value="HTML">
+                    <label for="HTML">HTML</label><br>
+                </div>
+                <div class="selecao">
+                    <input type="checkbox" id="CSS" name="interesses" value="CSS">
+                    <label for="CSS">CSS</label><br>
+                </div>
+                <div class="selecao">
+                    <input type="checkbox" id="JavaScript" name="interesses" value="JavaScript">
+                    <label for="JavaScript">JavaScript</label><br>
+                </div>
+                <div class="selecao">
+                    <input type="checkbox" id="Python" name="interesses" value="Python">
+                    <label for="Python">Python</label><br>
+                </div>
+                <div class="selecao">
+                    <input type="checkbox" id="Java" name="interesses" value="Java">
+                    <label for="Java">Java</label><br>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Comentários</legend>
